@@ -14,11 +14,13 @@
 + Модальное окно с увеличенной фотографией карточки;
 + Реализована структура сайта по методологии БЭМ;
 + Webpack;
-* Обмен данными через API
++ Обмен данными через API;
++ Добавлена возможность Регистрации и Авторизации;
 
 ## Стек технологий
 * В проекте использпользовались:
 + React hoocks;
++ Переадресация с помощью Navigate и Routes из react-router-dom;
 + Javascript и расширение jsx;
 + Webpack;
 + Babel;
@@ -27,7 +29,7 @@
 
 ## Проект на GitHub Pages
 
-* [Место: Россия](evgeniihvatov.github.io/mesto-react/)
+* [Место: Россия](evgeniihvatov.github.io/react-mesto-auth/)
 
 
 # Getting Started with Create React App
