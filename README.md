@@ -29,7 +29,7 @@
 
 ## Проект на GitHub Pages
 
-* [Место: Россия](evgeniihvatov.github.io/react-mesto-auth/)
+* [Место: Россия](https://evgeniihvatov.github.io/react-mesto-auth/)
 
 
 # Getting Started with Create React App
