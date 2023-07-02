@@ -1,0 +1,13 @@
+.popup__container_type_info {
+    padding: 0 36px 0;
+    border-radius: 10px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .popup__container_type_info {
+      padding: 0 18px 0;
+      width: 280px;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
