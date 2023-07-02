@@ -1,0 +1,12 @@
+.profile__container {
+    width: 120px;
+    align-self: center;
+    margin-right: 30px;
+    height: 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__container {
+    margin-right: 0;
+  }
+}

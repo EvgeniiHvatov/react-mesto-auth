@@ -1,0 +1,25 @@
+.profile__info {
+  display: grid;
+  color: white;
+  grid-template-areas:
+    "title button"
+    "subtitle subtitle";
+  grid-template-columns: max-content 24px;
+  grid-template-rows: auto 1fr;
+  /* justify-content: center; */
+  gap: 10px 19px;
+  align-self: center;
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .profile__info {
+    justify-self: center;
+    gap: 13px 10px;
+    /* margin-top: 22px;
+    margin-bottom: 31px; */
+    grid-template-columns: 189px 24px;
+    margin: 22px 0 31px 0;
+  }
+}

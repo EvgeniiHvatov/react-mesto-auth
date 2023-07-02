@@ -1,0 +1,11 @@
+.places__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0 0;
+  font-size: 0px;
+  border: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+

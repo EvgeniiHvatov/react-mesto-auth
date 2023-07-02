@@ -1,0 +1,28 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  /* grid-template-columns: 120px minmax(100px, max-content) 1fr; */
+  /* gap: 30px; */
+  padding-top: 40px;
+  padding-bottom: 51px;
+}
+
+@media screen and (max-width: 1023px) {
+  .profile {
+    padding-top: 38px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profile {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    flex-direction: column;
+    padding-top: 42px;
+    padding-bottom: 36px;
+  }
+}
