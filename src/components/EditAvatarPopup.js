@@ -25,10 +25,8 @@ function EditAvatarPopup({isOpen, onClose, onUpdateAvatar, isLoading}) {
     name = 'edit-avatar'
     title = 'Обновить аватар'
     textButton = 'Сохранить'>
-      <>
         <input className="popup__input" id="avatarlink" ref={ref} name="url" type="url" placeholder="Ссылка на аватар" required />
         <span className="popup__error" id="avatarlink-error"></span>
-      </>
   </PopupWithForm>
   )
 }

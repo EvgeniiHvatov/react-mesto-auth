@@ -38,12 +38,10 @@ function AddPlacePopup({isOpen, onClose, onAddPlace, isLoading}) {
             name = 'add-card'
             title = 'Новое место'
             textButton = 'Создать'>
-              <>
                 <input className="popup__input popup__input_text_name-place" value={title} onChange={handleTitleChange} id="nameplace" name="name" placeholder="Название" type="text" required minLength="2" maxLength="30"/>
                 <span className="popup__error" id="nameplace-error"></span>
                 <input className="popup__input popup__input_text_image-link" value={link} onChange={handleLinkChange} id="imagelink" name="link" placeholder="Ссылка на картинку" required type="url"/>
                 <span className="popup__error" id="imagelink-error"></span>
-              </>
           </PopupWithForm>
   )
 }

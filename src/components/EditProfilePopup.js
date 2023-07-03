@@ -40,12 +40,10 @@ function EditProfilePopup({isOpen, onClose, onUpdateUser, isLoading}) {
       name = 'edit-profile'
       title = 'Редактировать профиль'
       textButton = 'Сохранить'>
-        <>
           <input className="popup__input popup__input_text_name" id="firstname" value={name} onChange={handleNameChange} name="firstname" placeholder="Имя" type="text" required minLength="2" maxLength="40"/>
           <span className="popup__error" id="firstname-error"></span>
           <input className="popup__input popup__input_text_about" id="about" value={description} onChange={handleDescriptionChange} name="about" placeholder="О себе" type="text" required minLength="2" maxLength="200"/>
           <span className="popup__error" id="about-error"></span>
-        </>
     </PopupWithForm>
   )
 }
